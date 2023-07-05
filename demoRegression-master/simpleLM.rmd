@@ -59,3 +59,5 @@ abline(MYWEIGHT)
 summary.lm(MYWEIGHT)
 ```
 
+  
+This residual standard error is a 5.432 which is a lower number which means the data is good and works better. The r squared number is 0.7472 which is low and is around the same as the other r squared numbers above. The line that goes across as known as the prediction, is going higher but is starting from a higher number also. All the dots are more closer together which means the data is works. 
