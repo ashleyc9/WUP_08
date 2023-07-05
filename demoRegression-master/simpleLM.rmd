@@ -26,7 +26,8 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
-
+  
+If you look right above 20 that would hit neck, which is about 57 length wise. The line that shows across the chart, is the prediction. It is like a numerical variable, showing or explaining another numerical variable. The R console box shows us data that tells us how good the information is, more in depth. The residual standard error the smaller the number is, the bigger the model is. The one with the small residual error, will have have the biggest adgusted r squared. 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
