@@ -71,20 +71,17 @@ summary.lm(MYAGE)
   
 The residual error is high with a 7.511 which is not good. While the r squared is at 0.5166, which is so far the best one out of all the plot charts we did. The smaller the r squared, the better outcome. 
 
-```{r}
-MYMONTH <- lm(LENGTH~MONTH,data=bears)
-plot(LENGTH~MONTH,data=bears)
-abline(MYMONTH)
-summary.lm(MYMONTH)
-```
-  
-This chart has the highest residual error of 10.99 which is bad. Then the r squared is 0.08423 which is now the lowest besides the AGE chart above. This data gives us a different chart, showing more blocks then dots. 
+ 
 
 ```{r}
-MYSEX <- lm(LENGTH~SEX,data=bears)
-plot(LENGTH~SEX,data=bears)
-abline(MYSEX)
-summary.lm(MYSEX)
+MYHEADLEN <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(MYHEADLEN)
+summary.lm(MYHEADLEN)
 ```
   
-The residual standard is 10.75 which is high and not good. The r squared is 0.01065 which is super good for this information for SEX. 
+
+
+##Conclusion
+
+
