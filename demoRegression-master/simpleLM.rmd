@@ -41,4 +41,13 @@ summary.lm(MYCHEST)
   
 The residual error is 4.9 and the r squared is 0.791. The lower residual error is better. So, this chart, has a better residual error and data. The residual error that was on the other chart was 5.376, which is higher and not the better data. Chest is above neck, in rank, which means chest is better than neck. 
 
+```{r}
+MYHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(MYHEADWTH)
+summary.lm(MYHEADWTH)
+```
+
+  
+With this residual error, it has a higher value with a 7.3, which is not better than the other two charts that we had before this one. The chart is more spread out means the data is worse. The r squared is 0.5409, which is smaller than the other two r squared before. 
 
