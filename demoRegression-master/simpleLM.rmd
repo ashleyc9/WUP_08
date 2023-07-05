@@ -69,4 +69,4 @@ abline(MYAGE)
 summary.lm(MYAGE)
 ```
   
-
+The residual error is high with a 7.511 which is not good. While the r squared is at 0.5166, which is so far the best one out of all the plot charts we did. The smaller the r squared, the better outcome. 
