@@ -80,7 +80,7 @@ abline(MYHEADLEN)
 summary.lm(MYHEADLEN)
 ```
   
-
+The residual standard error is a 4.235, while the r squared error is 0.8463.
 
 ##Conclusion
 
