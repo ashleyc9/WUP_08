@@ -77,5 +77,6 @@ plot(LENGTH~MONTH,data=bears)
 abline(MYMONTH)
 summary.lm(MYMONTH)
 ```
-
+  
+This chart has the highest residual error of 10.99 which is bad. Then the r squared is 0.08423 which is now the lowest besides the AGE chart above. This data gives us a different chart, showing more blocks then dots. 
 
