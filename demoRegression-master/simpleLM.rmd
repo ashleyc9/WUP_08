@@ -39,6 +39,6 @@ abline(MYCHEST)
 summary.lm(MYCHEST)
 ```
   
-
+The residual error is 4.9 and the r squared is 0.791. The lower residual error is better. So, this chart, has a better residual error and data. The residual error that was on the other chart was 5.376, which is higher and not the better data. Chest is above neck, in rank, which means chest is better than neck. 
 
 
