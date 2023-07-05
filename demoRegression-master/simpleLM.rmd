@@ -84,4 +84,38 @@ The residual standard error is a 4.235, while the r squared error is 0.8463.
 
 ##Conclusion
 
+In order from the least residual standard error to the best.
+  
+6. Age has 7.511
+  
+5. Headwth has 7.32
+  
+4. weight has 5.432
+  
+3. neck has 5.376
+  
+2. chest has 4.939
+  
+1. Headlen has 4.235
+  
 
+Headlen has the best residual standard error of 4.235
+  
+
+In order from the least r-squared number to the best.
+  
+6. Age has 0.5166
+  
+5. headwth has 0.5409
+  
+4. weight has 0.7472
+  
+3. Neck has 0.7524
+  
+2. Chest has 0.791
+  
+1. Headlen has 0.8463
+  
+
+Headlen has the best r-squared number of 0.8463
+  
