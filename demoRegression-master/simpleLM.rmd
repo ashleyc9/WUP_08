@@ -51,3 +51,11 @@ summary.lm(MYHEADWTH)
   
 With this residual error, it has a higher value with a 7.3, which is not better than the other two charts that we had before this one. The chart is more spread out means the data is worse. The r squared is 0.5409, which is smaller than the other two r squared before. 
 
+
+```{r}
+MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(MYWEIGHT)
+summary.lm(MYWEIGHT)
+```
+
