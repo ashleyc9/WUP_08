@@ -31,3 +31,14 @@ If you look right above 20 that would hit neck, which is about 57 length wise. T
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+
+```{r}
+MYCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(MYCHEST)
+summary.lm(MYCHEST)
+```
+  
+
+
+
